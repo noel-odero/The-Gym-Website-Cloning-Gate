@@ -36,9 +36,9 @@
           >
             <div>
               <img src="" alt="" />
-              <p class="text-2xl">UNIVERSITY OF NOTRE DAME</p>
+              <p class="sm:text-2xl text-lg w-1/2 ml-30">UNIVERSITY OF NOTRE DAME</p>
             </div>
-            <div class="flex gap-8">
+            <div class="flex gap-8 ">
               <p
                 class="cursor-pointer font-bold hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl"
               >
@@ -120,7 +120,7 @@
               </div>
             </div>
             <div
-              class="flex z-50 gap-8 text-gray-500 bg-white max-w-fit absolute h-16 -bottom-10 right-1 shadow-lg text-lg"
+              class="flex z-50 gap-8 text-gray-500 bg-white max-w-fit absolute h-16 -bottom-10 right-1 shadow-lg text-lg "
             >
               <p class="p-4 cursor-pointer">Academics</p>
               <p class="p-4 cursor-pointer">Admissioms</p>
@@ -198,7 +198,7 @@
           </div>
         </div>
       </div>
-      <div class="flex pb-20">
+      <div class="flex sm:flex-row flex-col pb-20">
         <div
           class="mt-4 w-2/5 flex flex-col font-family-primary gap-4 hover:bg-primary/20 hover:shadow:lg transform transition-transform duration-300 hover:scale-105"
         >
@@ -291,20 +291,22 @@
           src="./img/pattern-celtic_knot-rings.svg"
           class="absolute bottom-0 left-0"
         />
-        <div class="grid grid-cols-2 gap-y-20 gap-x-10">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-20 gap-x-10"
+        >
           <div class="-mt-28">
             <img src="./img/pillar-research-400.jpg" class="w-[42rem]" />
           </div>
-          <div class="text-white pr-20">
+          <div class="text-white px-4 md:pl-0 md:pr-20">
             <h1 class="uppercase text-gray-400 text-base font-semibold">
               research
             </h1>
             <h3
-              class="capitalize text-white text-4xl font-bold tracking-wider font-family-secondary my-4"
+              class="capitalize text-white text-2xl md:text-4xl font-bold tracking-wider font-family-secondary my-4"
             >
               the opportunity of inquiry
             </h3>
-            <div class="bg-secondary h-1.5 w-20 -ml-4"></div>
+            <div class="bg-secondary h-1.5 w-10 md:w-20 md:-ml-4"></div>
             <p class="my-4 text-lg">
               For scholars who share a common passion for inquiry because of
               what it can reveal about our world and ourselves, there is
@@ -330,16 +332,16 @@
               </p>
             </div>
           </div>
-          <div class="text-white pl-20 mt-20">
+          <div class="text-white px-4 md:pl-20 mt-0 md:mt-20">
             <h1 class="uppercase text-gray-400 text-base font-semibold">
               faith & service
             </h1>
             <h3
-              class="capitalize text-white text-4xl font-bold tracking-wider font-family-secondary my-4"
+              class="capitalize text-white text-2xl md:text-4xl font-bold tracking-wider font-family-secondary my-4"
             >
               the demands of justice
             </h3>
-            <div class="bg-secondary h-1.5 w-20 -ml-4"></div>
+            <div class="bg-secondary h-1.5 w-10 md:w-20 md:-ml-4"></div>
             <p class="my-4 text-lg">
               For scholars who share a common passion for inquiry because of
               what it can reveal about our world and ourselves, there is
@@ -366,21 +368,26 @@
             </div>
           </div>
           <div class="">
-            <img src="./img/pillar-faith-400.jpg" class="w-[42rem]" />
+            <img src="./img/pillar-faith-400.jpg" class="w-[42rem] hidden md:block" />
           </div>
+
           <div class="-mb-32">
-            <img src="./img/pillar-global-400.jpg" class="w-[42rem]" />
+            <img
+              src="./img/pillar-global-400.jpg"
+              class="w-[42rem] hidden md:block"
+            />
           </div>
-          <div class="text-white pr-20">
+          
+          <div class="text-white px-4 md:pr-20">
             <h1 class="uppercase text-gray-400 text-base font-semibold">
               global
             </h1>
             <h3
-              class="capitalize text-white text-4xl font-bold tracking-wider font-family-secondary my-4"
+              class="capitalize text-white text-2xl md:text-4xl font-bold tracking-wider font-family-secondary my-4"
             >
               the connected world
             </h3>
-            <div class="bg-secondary h-1.5 w-20 -ml-4"></div>
+            <div class="bg-secondary h-1.5 w-10 md:w-20 md:-ml-4"></div>
             <p class="my-4 text-lg">
               Notre Dame seeks to be in the world, and to bring the world to
               Notre Dame, because inquiry and scholarly exchange are enriched by
@@ -807,7 +814,7 @@
         
     </div>
 </main>
-<footer class="w-full">
+<footer class="w-full ">
     <div class="center">
       <div class="w-full grid grid-cols-3 justify-between gap-x-16 py-8">
         <h1 class="font-primary text-primary text-2xl uppercase">
@@ -834,9 +841,9 @@
         </div>
       </div>
     </div>
-    <div class="w-full flex justify-between py-8 bg-gray-200">
-      <div class="center flex w-full justify-between capitalize">
-        <div class="flex gap-8">
+    <div class="w-full flex lex-col sm:flex-row justify-between py-8 bg-gray-200">
+      <div class="center flex flex-col sm:flex-row items-center justify-center w-full sm:justify-between capitalize">
+        <div class="flex flex-col sm:flex-row gap-8">
           <p
             class="cursor-pointer hover:rounded-md hover:bg-[#f0f0f0] py-1 px-2.5"
           >
@@ -858,7 +865,7 @@
             visit
           </p>
         </div>
-        <div class="flex gap-8">
+        <div class="flex flex-col sm:flex-row gap-8">
           <p
             class="cursor-pointer hover:rounded-md hover:bg-[#f0f0f0] py-1 px-2.5"
           >
