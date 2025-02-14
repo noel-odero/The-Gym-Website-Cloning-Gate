@@ -24,7 +24,7 @@
 <body>
     <nav>
         <div class="w-full bg-secondary h-2"></div>
-        <div class="w-full bg-primary h-30 flex justify-between text-white pt-8 pb-12 px-8">
+        <div class="w-full bg-primary h-30 flex justify-between text-white pt-8 pb-12 px-8 relative">
             <div>
                 <img src="" alt="">
                 <p class="text-2xl">UNIVERSITY OF NOTRE DAME</p>
@@ -52,17 +52,17 @@
     
                 </div>
             </div>
-        </div>
-        <div>
-            <p>Academics</p>
-            <p>Admissioms</p>
-            <p>Research</p>
-            <p>Global</p>
-            <p>Faith & Sercive</p>
-            <p>Campus Life</p>
-            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
-            </svg>
+            <div class="flex gap-8 text-gray-500 bg-white max-w-fit absolute h-16 -bottom-10 right-20 shadow-lg text-lg">
+                <p class="p-4">Academics</p>
+                <p class="p-4">Admissioms</p>
+                <p class="p-4">Research</p>
+                <p class="p-4">Global</p>
+                <p class="p-4">Faith & Sercive</p>
+                <p class="border-r border-[#55657A] h-16 p-4">Campus Life</p>
+                <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6 p-2 size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+                </svg>
+            </div>
         </div>
     </nav>
 </body>
