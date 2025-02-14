@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+          /* fontFamily: {
+            sumana: ['"Sumana"', 'serif'],
+            libre: ['"Libre Franklin"', 'sans-serif'],
+          }; */
+          --color-primary: #0b2340;
+          --color-secondary: #ae9142;
+          --font-family-primary: 'Sumana', serif;
+          --font-family-secondary: 'Libre Franklin', sans-serif;
+        }
+  
+        
+      </style>
 </head>
 <body>
-    <p>
-        Hello, You
-    </p>
+    <nav>
+        <div class="w-full bg-secondary h-2"></div>
+        <div class="w-full bg-primary h-30 flex justify-between text-white pt-8 pb-12 px-8">
+            <div>
+                <img src="" alt="">
+                <p class="text-2xl">UNIVERSITY OF NOTRE DAME</p>
+            </div>
+            <div class="flex gap-8">
+                <p class="font-bold hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">About</p>
+                <p class="border-r border-[#55657A] h-8 font-bold pr-4 hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Visit</p>
+                <div class="flex">
+                    <p class="hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Give</p>
+                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"  class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                    </svg>
+                </div>
+                <div class="flex">
+                    <p class="hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Alumni</p>
+                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                    </svg>
+                </div>
+                <div class="flex">
+                    <p class="hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Athletics</p>
+                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                    </svg>
+    
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>Academics</p>
+            <p>Admissioms</p>
+            <p>Research</p>
+            <p>Global</p>
+            <p>Faith & Sercive</p>
+            <p>Campus Life</p>
+            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+            </svg>
+        </div>
+    </nav>
 </body>
 </html>
