@@ -17,71 +17,79 @@
           --font-family-primary: 'Sumana', serif;
           --font-family-secondary: 'Libre Franklin', sans-serif;
         }
+        .center {
+            @apply max-w-[1440px] mx-auto w-full;
+        }
   
         
       </style>
 </head>
 <body>
     <nav>
-        <div class="w-full bg-secondary h-2"></div>
-        <div class="w-full bg-primary h-30 flex justify-between text-white pt-8 pb-12 px-8 relative">
-            <div>
-                <img src="" alt="">
-                <p class="text-2xl">UNIVERSITY OF NOTRE DAME</p>
-            </div>
-            <div class="flex gap-8">
-                <p class=" cursor-pointer font-bold hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">About</p>
-                <p class=" cursor-pointer border-r border-[#55657A] h-8 font-bold pr-4 hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Visit</p>
-                <div class="flex">
-                    <p class=" cursor-pointer hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Give</p>
-                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"  class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
-                    </svg>
-                </div>
-                <div class="flex">
-                    <p class=" cursor-pointer hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Alumni</p>
-                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
-                    </svg>
-                </div>
-                <div class="flex">
-                    <p class=" cursor-pointer hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Athletics</p>
-                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
-                    </svg>
-    
-                </div>
-            </div>
-            <div class="flex z-50 gap-8 text-gray-500 bg-white max-w-fit absolute h-16 -bottom-10 right-20 shadow-lg text-lg">
-                <p class="p-4 cursor-pointer">Academics</p>
-                <p class="p-4 cursor-pointer">Admissioms</p>
-                <p class="p-4 cursor-pointer">Research</p>
-                <p class="p-4 cursor-pointer">Global</p>
-                <p class="p-4 cursor-pointer">Faith & Sercive</p>
-                <p class="border-r border-[#55657A] h-16 p-4">Campus Life</p>
-                <p class="flex items-center justify-center pr-4">
+        <div class="w-full bg-secondary h-2 max-w-"></div>
+        <div class="w-full bg-primary">
 
-                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
-                    </svg>
-                </p>
+            <div class="center">
+    
+                <div class="w-full bg-primary h-30 flex justify-between text-white pt-8 pb-12  relative">
+                    <div>
+                        <img src="" alt="">
+                        <p class="text-2xl">UNIVERSITY OF NOTRE DAME</p>
+                    </div>
+                    <div class="flex gap-8">
+                        <p class=" cursor-pointer font-bold hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">About</p>
+                        <p class=" cursor-pointer border-r border-[#55657A] h-8 font-bold pr-4 hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Visit</p>
+                        <div class="flex">
+                            <p class=" cursor-pointer hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Give</p>
+                            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"  class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                            </svg>
+                        </div>
+                        <div class="flex">
+                            <p class=" cursor-pointer hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Alumni</p>
+                            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                            </svg>
+                        </div>
+                        <div class="flex">
+                            <p class=" cursor-pointer hover:bg-[#143865] hover:px-1 hover:py-2 hover:w-20 hover:text-center hover:rounded-2xl">Athletics</p>
+                            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                            </svg>
+            
+                        </div>
+                    </div>
+                    <div class="flex z-50 gap-8 text-gray-500 bg-white max-w-fit absolute h-16 -bottom-10 right-1 shadow-lg text-lg">
+                        <p class="p-4 cursor-pointer">Academics</p>
+                        <p class="p-4 cursor-pointer">Admissioms</p>
+                        <p class="p-4 cursor-pointer">Research</p>
+                        <p class="p-4 cursor-pointer">Global</p>
+                        <p class="p-4 cursor-pointer">Faith & Sercive</p>
+                        <p class="border-r border-[#55657A] h-16 p-4">Campus Life</p>
+                        <p class="flex items-center justify-center pr-4">
+        
+                            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+                            </svg>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
     <main>
         <div class="relative bg-[url('/img/campus_spring_scenic-800.webp')] bg-cover bg-center h-screen">
             <div class="absolute inset-0 bg-[#0b2340]/80 ">
-                <div class="flex justify-end">
-
+                <div class="flex justify-end center">
                     <img src="./img/logo-wwyff-w.svg" alt="" class="size-80 z-50 mt-20">
                 </div> 
-                <div class="flex justify-end">
+                <div class="flex justify-end center">
                     <p class="text-white text-2xl z-50 w-2/5 mt-12 text-right px-8 pr-4">
                         Notre Dame attracts people willing to take action to find solutions to humanity's most pressing challenges. "What would you fight for?" For us, it's not a question. It's a call to action. We are the Fighting Irish.
                     </p>
 
                 </div>
-                <div class="flex justify-end ">
+                <div class="flex justify-end center ">
                     <button class="z-50 bg-white shadow-lg rounded px-4 py-3 flex mt-8 mr-8">
                         <p>What would you fight for?</p>
                         <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"  class="w-6 h-6">
@@ -95,6 +103,23 @@
         
             
 
+        </div>
+        <div>
+            <div>
+                <img src="./img/globering_2025.jpg" alt="">
+                <p>UNIVERSITY</p>
+                <p>University of Notre Dame wins award for excellence in campus internationalization</p>
+            </div>
+            <div>
+                <div>
+                    <p>COLLEGES & SCHOOLS</p>
+                    <p>Physicist Laura Fields granted a Presidential Early Career Award</p>
+                </div>
+                <div>
+                    <p>GLOBAL</p>
+                    <p>University of Notre Dame and Pontificia Universidad Católica de Chile dual PhD program welcomes all disciplines</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
